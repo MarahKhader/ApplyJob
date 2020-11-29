@@ -1,0 +1,94 @@
+/*.Signup {
+    padding: 40px;
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+*/
+
+.SignUp {
+  background-color:  rgb(255, 255, 255);
+  height: 120vh; /* Magic here */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  border: white solid 10px;
+  border-color: rgb(0, 38, 77);
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color:  rgb(0, 38, 77);
+  padding:20px;
+  height: 70%;
+}
+
+
+.form-control {
+  width: 300px;
+  height: 25px;
+  border-radius: 15px;
+}
+
+.col-6 .date {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 40px;
+  height: 20px;
+}
+
+.row {
+  max-width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  float: left;
+  padding: 90px;
+  
+}
+
+.col-6 {
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+
+    color:rgb(255, 255, 255);
+    background-color:  rgba(255, 255, 255, 0.192);
+    border-radius: 7px;
+    height: 50px;
+    width: 500px;
+}
+
+.text-video {
+  font-style:italic; 
+  color:#cca300;
+}
+
+.btn-success {
+  margin: 80px;
+  width: 300px;
+  height: 60px;
+  background-color: rgb(206, 51, 51);
+  color: aliceblue;
+  font-size: 30px;
+}
+ .h-txt {
+   color:  rgb(0, 38, 77);
+   padding: 20px;
+   font-size: 40px;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-style: italic; 
+   margin-right: 30px;
+   margin-bottom: 20px;
+   background-color: rgba(232, 237, 252, 0.342);
+   border-radius: 25px;
+ }
